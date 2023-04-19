@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<meta charset = "utf-8">
+	<title> Project </title>
+	<!-- Rylee Lavigne. CSCE 102, section 15. 2/27/23 -->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="content">
+<header>
+	<h1> Rylee LaVigne</h1>
+</header>
+<nav id="main-nav">
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="quiz.html"> Quiz</a></li>
+	<li><a href="contact.html"> Contact Me</a></li>
+</ul>
+</nav>
+<main>
+	<h2> Website Development Quiz</h2>
+		<p>
+			<label for="q-one"> What are websites named?</label>
+		</p>
+		<p>
+			<select id ="q-one">
+				<option> script.js</option>
+				<option>index.html</option>
+				<option>styles.css</option>
+				<option>index</option>
+			</select>
+		</p>
+		<p>
+			<label for="q-two"> Where does a nav go in HTML?</label>
+		</p>
+		<p>
+			<select id ="q-two">
+				<option> Inside Header</option>
+				<option>Above Header</option>
+				<option>Above Main</option>
+				<option>Under Main</option>
+			</select>
+		</p>
+		<p>
+			<label for="q-three"> What is typically not included when you add an image?</label>
+		</p>
+		<p>
+			<select id="q-three">
+				<option> An alt</option>
+				<option> A div</option>
+				<option >A class</option>
+				<option> A list item</option>
+			</select>
+		</p>
+		<p>
+			<label for="q-four"> What would be a correct function in JavaScript?</label>
+		</p>
+		<p>
+			<select id="q-four">
+				<option> sayHello</option>
+				<option>sayHello()</option>
+				<option> SayHello()</option>
+				<option> SayHello</option>
+			</select>
+		</p>
+		<button id="submit" onclick="showScore()">Submit</button>
+		<p id="quizres">
+
+		</p>
+</main>
+<footer>
+	<p> &copy; Rylee</p>
+</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
